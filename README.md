@@ -42,8 +42,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://raresmanta.github.io/Results-Summary-Component)
+- Solution URL: [Solution URL](https://github.com/raresmanta/Results-Summary-Component)
+- Live Site URL: [Live Site URL](https://raresmanta.github.io/Results-Summary-Component)
 
 ## My process
 
