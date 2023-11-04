@@ -123,8 +123,6 @@ section > p {
 	flex-wrap: wrap;
 }
 
-
-
 .verbal {
 	background-color: hsl(166, 100%, 37%, .3);
 	color: hsl(166, 100%, 37%);
@@ -147,6 +145,7 @@ section > p {
 	margin-right: 196px;
 }
 
+/*Button*/
 button {
 	background-color: hsl(224, 30%, 27%);
 	font-size: 20px;
