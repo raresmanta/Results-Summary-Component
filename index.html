@@ -4,49 +4,53 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<title>Results Summary Component | Frontend Mentor</title>
 </head>
 <body>
 	<main>
 		<section>
 			<h3>Your Result</h3>
-			<h1> 76 </h1>
-			<h4>of 100</h4>
+			<div class="score-circle">
+				<h1> 76 </h1>
+				<h4>of 100</h4>
+			</div>
 			<h2>Great</h2>
 			<p>You scored higher than 65% of the people who have taken these tests.</p>
 		</section>
-		<aside>
 			<div class="summary">
 				<h3>Summary</h3>
 				<div class="reaction">
-					<img alt="Reaction Icon" src="assets/images/icon-reaction.svg">
+					<img alt="Reaction Icon" src="assets/images/icon-reaction.svg" class="icon">
 					<h3 class="category">Reaction</h3>
 					<h3 class="scored">80 </h3>
-					<h2 class="max score">/ 100</h2>
+					<h4 class="max-score">/ 100</h4>
 				</div>
 				<div class="memory">
-					<img alt="Memory Icon" src="assets/images/icon-memory.svg">
+					<img alt="Memory Icon" src="assets/images/icon-memory.svg" class="icon">
 					<h3 class="category">Memory</h3>
 					<h3 class="scored">92 </h3>
-					<h2 class="max score">/ 100</h2>
+					<h4 class="max-score">/ 100</h4>
 				</div>
-				<div class="Verbal">
-					<img alt="Verbal Icon" src="assets/images/icon-verbal.svg">
+				<div class="verbal">
+					<img alt="Verbal Icon" src="assets/images/icon-verbal.svg" class="icon">
 					<h3 class="category">Verbal</h3>
 					<h3 class="scored">61 </h3>
-					<h2 class="max score">/ 100</h2>
+					<h4 class="max-score">/ 100</h4>
 				</div>
-				<div class="Visual">
-					<img alt="Visual Icon" src="assets/images/icon-visual.svg">
+				<div class="visual">
+					<img alt="Visual Icon" src="assets/images/icon-visual.svg" class="icon">
 					<h3 class="category">Visual</h3>
 					<h3 class="scored">72 </h3>
-					<h2 class="max score">/ 100</h2>
-				</div>			
+					<h4 class="max-score">/ 100</h4>
+				</div>		
+				<div class="button">
+					<button type="button" onclick="alert('Hello World!')">Continue</button>
+				</div>	
 			</div>
-			<div class="button">
-				<button type="button" onclick="alert('Hello World!')">Continue</button>
-			</div>
-		</aside>
+			
 	</main>
 </body>
 </html>
